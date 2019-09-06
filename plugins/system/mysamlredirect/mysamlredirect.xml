@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>System - PPW Saml Single Sign-On</name>
+    <author>PPW</author>
+    <authorEmail>mario.martinez@peoplewalking.com</authorEmail>
+    <authorUrl>www.peoplewalking.com</authorUrl>
+    <creationDate>Sep 2019</creationDate>
+    <copyright>None</copyright>
+    <license>GNU General Public License version 3</license>
+    <version>1.0</version>
+    <description>This plugin redirect the user to your IdP for authentication.</description>
+    <files>
+        <filename plugin="mysamlredirect">mysamlredirect.php</filename>
+    </files>
+    <config />
+</extension>
